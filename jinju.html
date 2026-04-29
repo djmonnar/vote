@@ -4,25 +4,231 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>한경호 | 2026 진주시장 후보</title>
-  <meta name="description" content="2026년 국민의힘 진주시장 후보 한경호 정책·약력·학력 랜딩페이지" />
+  <meta name="description" content="2026년 국민의힘 진주시장 후보 한경호 랜딩페이지" />
   <meta property="og:title" content="한경호 | 진주의 내일을 바꾸는 선택" />
   <meta property="og:description" content="경제·재정·우주항공 경험으로 진주의 대전환을 준비합니다." />
   <meta property="og:type" content="website" />
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <meta property="og:image" content="./한경호.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
   <style>
-    :root{--red:#e61e2b;--blue:#123f7c;--navy:#071a33;--ink:#101828;--muted:#667085;--line:#e6e9ef;--bg:#f7f8fb;--shadow:0 24px 70px rgba(7,26,51,.14)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'Noto Sans KR',system-ui,-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);background:var(--bg);word-break:keep-all;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 40px));margin:0 auto}.topbar{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(230,233,239,.8)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;color:var(--navy);letter-spacing:-.04em}.brand-mark{width:38px;height:38px;border-radius:13px;background:linear-gradient(135deg,var(--red),var(--blue));display:grid;place-items:center;color:white;font-weight:900;box-shadow:0 12px 28px rgba(230,30,43,.26)}.navlinks{display:flex;align-items:center;gap:22px;font-size:15px;font-weight:800;color:#344054}.navcta{padding:11px 18px;border-radius:999px;background:var(--red);color:white;box-shadow:0 12px 28px rgba(230,30,43,.22)}.hero{position:relative;overflow:hidden;padding:150px 0 90px;background:radial-gradient(circle at 88% 8%,rgba(230,30,43,.22),transparent 32%),linear-gradient(135deg,#fff 0%,#f7f8fb 48%,#eef3fb 100%)}.hero:before{content:"";position:absolute;right:-140px;top:100px;width:560px;height:560px;border-radius:50%;background:linear-gradient(135deg,rgba(230,30,43,.12),rgba(16,58,117,.12))}.hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border-radius:999px;background:#fff;border:1px solid var(--line);font-weight:900;font-size:14px;color:var(--red);box-shadow:0 8px 24px rgba(16,24,40,.06)}.dot{width:8px;height:8px;border-radius:50%;background:var(--red)}h1{margin:24px 0 18px;font-size:clamp(42px,6vw,78px);line-height:1.04;letter-spacing:-.075em;color:var(--navy)}.gradient-text{background:linear-gradient(90deg,var(--red),var(--blue));-webkit-background-clip:text;color:transparent}.lead{font-size:clamp(18px,2.2vw,23px);color:#344054;max-width:720px;letter-spacing:-.035em}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 22px;border-radius:16px;font-weight:900;letter-spacing:-.03em;border:1px solid transparent;transition:.2s transform,.2s box-shadow}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--red);color:white;box-shadow:0 18px 36px rgba(230,30,43,.24)}.btn-secondary{background:white;color:var(--navy);border-color:var(--line);box-shadow:0 12px 30px rgba(16,24,40,.08)}.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.badge{padding:9px 12px;border-radius:999px;background:white;border:1px solid var(--line);font-weight:900;font-size:13px;color:#344054}.candidate-card{position:relative;border-radius:36px;background:linear-gradient(145deg,#ffffff,#f1f4f9);padding:28px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.75)}.portrait{height:520px;border-radius:30px;background:linear-gradient(155deg,#0b1b33 0%,#163b72 55%,#e61e2b 100%);position:relative;overflow:hidden;color:white}.portrait:before{content:"한경호";position:absolute;top:34px;left:34px;font-size:66px;font-weight:900;letter-spacing:-.08em;opacity:.12;writing-mode:vertical-rl;z-index:1}.portrait-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;z-index:2;filter:saturate(1.04) contrast(1.02)}.portrait-gradient{position:absolute;inset:0;z-index:3;background:linear-gradient(180deg,rgba(7,26,51,0) 42%,rgba(7,26,51,.76) 100%)}.card-caption{position:absolute;left:48px;right:48px;bottom:120px;padding:20px;border-radius:24px;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);color:var(--navy);box-shadow:0 20px 40px rgba(0,0,0,.16);z-index:4}.card-caption strong{display:block;font-size:28px;letter-spacing:-.05em}.card-caption span{color:var(--muted);font-weight:800}.fact-mini{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.fact-mini div{padding:14px;border-radius:18px;background:white;border:1px solid var(--line);text-align:center}.fact-mini b{display:block;color:var(--red);font-size:20px}.fact-mini span{font-size:12px;font-weight:800;color:var(--muted)}.section{padding:90px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:34px}.section-kicker{color:var(--red);font-weight:900;letter-spacing:-.02em}h2{margin:8px 0 0;font-size:clamp(30px,4.4vw,52px);line-height:1.14;letter-spacing:-.065em;color:var(--navy)}.section-desc{max-width:540px;color:var(--muted);font-size:17px}.policy{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.policy-card{position:relative;overflow:hidden;padding:30px;border-radius:28px;background:white;border:1px solid var(--line);box-shadow:0 18px 45px rgba(16,24,40,.07)}.policy-card:after{content:"";position:absolute;right:-40px;top:-40px;width:130px;height:130px;border-radius:50%;background:rgba(16,58,117,.06)}.num{font-size:14px;font-weight:900;color:var(--red)}.policy-card h3{font-size:24px;line-height:1.25;letter-spacing:-.05em;margin:10px 0;color:var(--navy)}.policy-card p{color:var(--muted);margin:0}.profile-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.profile-box{background:#fff;border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:0 16px 42px rgba(16,24,40,.06)}.profile-box h3{margin:0 0 16px;font-size:25px;color:var(--navy);letter-spacing:-.04em}.list{display:grid;gap:12px}.list-item{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:15px;border-radius:18px;background:#f8fafc}.label{font-weight:900;color:var(--red)}.quote-band{padding:36px;border-radius:30px;background:linear-gradient(135deg,var(--navy),var(--blue));color:white;box-shadow:0 25px 60px rgba(7,26,51,.2)}.quote-band b{display:block;font-size:28px;letter-spacing:-.05em;margin-bottom:8px}.source-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.source-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px}.source-card b{display:block;color:var(--navy);margin-bottom:6px}.source-card span{font-size:14px;color:var(--muted)}.cta-band{padding:60px;border-radius:36px;background:linear-gradient(135deg,var(--red),var(--blue));color:white;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;box-shadow:0 28px 70px rgba(16,58,117,.22)}.cta-band h2{color:white;margin:0}.cta-band p{opacity:.9;margin:10px 0 0}.cta-white{background:white;color:var(--red)}footer{padding:44px 0 70px;color:#667085;font-size:14px}.footer-grid{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:24px}.mobile-only{display:none}@media (max-width:900px){.navlinks{display:none}.mobile-only{display:inline-flex}.hero{padding:120px 0 70px}.hero-grid,.profile-grid{grid-template-columns:1fr}.portrait{height:430px}.policy,.source-grid{grid-template-columns:1fr}.section-head{display:block}.list-item{grid-template-columns:1fr}.cta-band{grid-template-columns:1fr;padding:34px}.footer-grid{display:block}.wrap{width:min(100% - 28px,1180px)}.fact-mini{grid-template-columns:1fr}.card-caption{bottom:100px}}
+    :root{
+      --red:#e61e2b;
+      --red2:#b9141e;
+      --blue:#123f7c;
+      --navy:#071a33;
+      --ink:#101828;
+      --muted:#667085;
+      --line:#e6e9ef;
+      --bg:#f6f8fc;
+      --white:#fff;
+      --gold:#f6c453;
+      --shadow:0 28px 80px rgba(7,26,51,.16);
+      --radius:30px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:'Noto Sans KR',system-ui,-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);background:var(--bg);word-break:keep-all;line-height:1.65;letter-spacing:-.02em}
+    a{color:inherit;text-decoration:none}
+    button{font-family:inherit}
+    .wrap{width:min(1180px,calc(100% - 40px));margin:0 auto}
+    .topbar{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(255,255,255,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(230,233,239,.9)}
+    .nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;color:var(--navy);letter-spacing:-.045em}
+    .brand-mark{width:42px;height:42px;border-radius:15px;background:linear-gradient(135deg,var(--red),var(--blue));display:grid;place-items:center;color:white;font-weight:900;box-shadow:0 14px 30px rgba(230,30,43,.27)}
+    .brand small{display:block;margin-top:-4px;font-weight:800;color:#667085;letter-spacing:-.04em}
+    .navlinks{display:flex;align-items:center;gap:22px;font-size:15px;font-weight:900;color:#344054}
+    .navlinks a{opacity:.9}.navlinks a:hover{color:var(--red);opacity:1}
+    .navcta{padding:11px 18px;border-radius:999px;background:var(--red);color:white!important;box-shadow:0 12px 28px rgba(230,30,43,.24)}
+
+    .hero{position:relative;overflow:hidden;padding:154px 0 78px;background:radial-gradient(circle at 82% 4%,rgba(230,30,43,.24),transparent 30%),radial-gradient(circle at 16% 15%,rgba(18,63,124,.12),transparent 32%),linear-gradient(135deg,#fff 0%,#f7f8fb 48%,#eef3fb 100%)}
+    .hero:before{content:"";position:absolute;right:-180px;top:110px;width:620px;height:620px;border-radius:50%;background:linear-gradient(135deg,rgba(230,30,43,.14),rgba(18,63,124,.14))}
+    .hero:after{content:"JINJU 2026";position:absolute;left:-18px;bottom:-54px;font-size:clamp(70px,13vw,190px);line-height:1;font-weight:900;letter-spacing:-.09em;color:rgba(7,26,51,.045);white-space:nowrap}
+    .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.02fr .98fr;gap:46px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:9px 14px;border-radius:999px;background:white;border:1px solid var(--line);font-weight:900;font-size:14px;color:var(--red);box-shadow:0 10px 26px rgba(16,24,40,.07)}
+    .dot{width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(230,30,43,.12)}
+    h1{margin:25px 0 18px;font-size:clamp(43px,6.6vw,82px);line-height:1.02;letter-spacing:-.085em;color:var(--navy)}
+    .gradient-text{background:linear-gradient(90deg,var(--red),var(--blue));-webkit-background-clip:text;color:transparent}
+    .lead{font-size:clamp(18px,2.1vw,23px);color:#344054;max-width:720px;letter-spacing:-.04em}
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
+    .badge{padding:9px 12px;border-radius:999px;background:white;border:1px solid var(--line);font-weight:900;font-size:13px;color:#344054}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 22px;border-radius:16px;font-weight:900;letter-spacing:-.03em;border:1px solid transparent;transition:.2s transform,.2s box-shadow;cursor:pointer;font-size:16px}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--red);color:white;box-shadow:0 18px 38px rgba(230,30,43,.25)}
+    .btn-secondary{background:white;color:var(--navy);border-color:var(--line);box-shadow:0 12px 30px rgba(16,24,40,.08)}
+    .btn-kakao{background:#fee500;color:#191919;box-shadow:0 16px 34px rgba(120,95,0,.18)}
+
+    .candidate-card{position:relative;border-radius:38px;background:linear-gradient(145deg,#ffffff,#f1f4f9);padding:26px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.8)}
+    .portrait{height:548px;border-radius:31px;background:linear-gradient(155deg,#0b1b33 0%,#163b72 55%,#e61e2b 100%);position:relative;overflow:hidden;color:white}
+    .portrait:before{content:"한경호";position:absolute;top:32px;left:32px;font-size:70px;font-weight:900;letter-spacing:-.08em;opacity:.12;writing-mode:vertical-rl;z-index:1}
+    .portrait-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;z-index:2;filter:saturate(1.06) contrast(1.03)}
+    .portrait-gradient{position:absolute;inset:0;z-index:3;background:linear-gradient(180deg,rgba(7,26,51,0) 40%,rgba(7,26,51,.78) 100%)}
+    .card-caption{position:absolute;left:46px;right:46px;bottom:126px;padding:20px;border-radius:24px;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);color:var(--navy);box-shadow:0 20px 45px rgba(0,0,0,.18);z-index:4}
+    .card-caption strong{display:block;font-size:31px;line-height:1.05;letter-spacing:-.06em}.card-caption span{color:var(--muted);font-weight:900}
+    .fact-mini{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.fact-mini div{padding:14px;border-radius:18px;background:white;border:1px solid var(--line);text-align:center}.fact-mini b{display:block;color:var(--red);font-size:23px;line-height:1}.fact-mini span{font-size:12px;font-weight:900;color:var(--muted)}
+
+    .section{padding:92px 0}.section.white{background:#fff}.section.dark{background:linear-gradient(135deg,var(--navy),#10396f);color:white}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:36px}.section-kicker{color:var(--red);font-weight:900;letter-spacing:-.01em}.section.dark .section-kicker{color:#ffb7bd}h2{margin:8px 0 0;font-size:clamp(31px,4.5vw,54px);line-height:1.13;letter-spacing:-.072em;color:var(--navy)}.section.dark h2{color:white}.section-desc{max-width:560px;color:var(--muted);font-size:17px}.section.dark .section-desc{color:rgba(255,255,255,.75)}
+
+    .promise-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.promise-card{position:relative;overflow:hidden;padding:30px;border-radius:28px;background:white;border:1px solid var(--line);box-shadow:0 18px 45px rgba(16,24,40,.07);min-height:230px}.promise-card:after{content:"";position:absolute;right:-44px;top:-44px;width:140px;height:140px;border-radius:50%;background:rgba(18,63,124,.06)}.num{font-size:14px;font-weight:900;color:var(--red)}.promise-card h3{font-size:24px;line-height:1.25;letter-spacing:-.055em;margin:10px 0;color:var(--navy)}.promise-card p{color:var(--muted);margin:0}
+
+    .quick-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.quick-card{padding:26px;border-radius:26px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);box-shadow:0 20px 50px rgba(0,0,0,.12)}.quick-card b{display:block;font-size:36px;line-height:1;color:white;letter-spacing:-.05em}.quick-card span{display:block;margin-top:10px;color:rgba(255,255,255,.78);font-weight:800;font-size:14px}
+
+    .profile-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px}.profile-box{background:#fff;border:1px solid var(--line);border-radius:30px;padding:30px;box-shadow:0 16px 42px rgba(16,24,40,.06)}.profile-box h3{margin:0 0 18px;font-size:26px;color:var(--navy);letter-spacing:-.05em}.bio-list{display:grid;gap:12px}.bio-row{display:grid;grid-template-columns:116px 1fr;gap:16px;padding:15px;border-radius:18px;background:#f8fafc}.bio-label{font-weight:900;color:var(--red)}.bio-row strong{color:var(--navy)}
+    .career{position:relative;display:grid;gap:13px}.career:before{content:"";position:absolute;left:95px;top:18px;bottom:18px;width:2px;background:#e9eef5}.career-item{position:relative;display:grid;grid-template-columns:86px 1fr;gap:24px;align-items:start}.career-date{font-weight:900;color:var(--red);font-size:14px}.career-text{padding:14px 16px;border-radius:17px;background:#f8fafc;border:1px solid #edf1f7;color:#344054;font-weight:700}.career-item:before{content:"";position:absolute;left:90px;top:12px;width:12px;height:12px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(230,30,43,.12)}
+
+    .quote-band{padding:42px;border-radius:32px;background:linear-gradient(135deg,var(--navy),var(--blue));color:white;box-shadow:0 28px 70px rgba(7,26,51,.2);display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center}.quote-band b{display:block;font-size:31px;letter-spacing:-.06em;margin-bottom:8px}.quote-band span{color:rgba(255,255,255,.78)}
+    .share-panel{background:#fff;border:1px solid var(--line);border-radius:34px;padding:34px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px;box-shadow:0 18px 46px rgba(16,24,40,.07)}.share-panel h2{font-size:34px;margin:0 0 8px}.share-panel p{margin:0;color:var(--muted)}.share-buttons{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.copy-toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%) translateY(20px);background:var(--navy);color:white;padding:13px 18px;border-radius:999px;font-weight:900;opacity:0;pointer-events:none;transition:.25s;z-index:90}.copy-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+    .floating{position:fixed;right:22px;top:50%;transform:translateY(-50%);z-index:55;display:grid;gap:9px}.float-link{width:58px;min-height:54px;padding:9px 6px;border-radius:18px;background:rgba(255,255,255,.92);backdrop-filter:blur(15px);border:1px solid var(--line);box-shadow:0 14px 34px rgba(16,24,40,.12);display:grid;place-items:center;text-align:center;color:var(--navy);font-size:12px;font-weight:900}.float-link.share{background:#fee500;color:#191919}.float-link.top{background:var(--red);color:white}
+    footer{padding:44px 0 72px;color:#667085;font-size:14px}.footer-grid{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:24px}.mobile-only{display:none}
+
+    @media (max-width:980px){.navlinks{display:none}.mobile-only{display:inline-flex}.hero{padding:116px 0 66px}.hero-grid,.profile-grid,.quote-band,.share-panel{grid-template-columns:1fr}.portrait{height:452px}.promise-grid,.quick-grid{grid-template-columns:1fr}.section-head{display:block}.share-buttons{justify-content:flex-start}.floating{right:12px;bottom:12px;top:auto;transform:none;grid-template-columns:repeat(4,1fr);left:12px}.float-link{width:auto;min-height:48px;border-radius:15px}.career:before{display:none}.career-item{grid-template-columns:1fr}.career-item:before{display:none}.fact-mini{grid-template-columns:1fr}.card-caption{bottom:110px}.wrap{width:min(100% - 28px,1180px)}}
   </style>
 </head>
 <body>
-  <header class="topbar"><div class="wrap nav"><a class="brand" href="#top"><span class="brand-mark">韓</span><span>한경호<br><small style="font-weight:700;color:#667085">진주시장 후보</small></span></a><nav class="navlinks"><a href="#policy">정책</a><a href="#profile">약력·학력</a><a href="#message">메시지</a><a href="#contact" class="navcta">함께하기</a></nav><a class="btn btn-primary mobile-only" href="#contact">함께하기</a></div></header>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top"><span class="brand-mark">韓</span><span>한경호<small>진주시장 후보</small></span></a>
+      <nav class="navlinks"><a href="#promise">공약</a><a href="#profile">약력·학력</a><a href="#career">경력</a><a href="#share" class="navcta">공유하기</a></nav>
+      <a class="btn btn-primary mobile-only" href="#share">공유</a>
+    </div>
+  </header>
+
+  <nav class="floating" aria-label="플로팅 메뉴">
+    <a class="float-link" href="#promise">공약</a>
+    <a class="float-link" href="#profile">약력</a>
+    <a class="float-link" href="#career">경력</a>
+    <button class="float-link share" onclick="shareKakao()" type="button">카톡</button>
+    <a class="float-link top" href="#top">TOP</a>
+  </nav>
+
   <main id="top">
-    <section class="hero"><div class="wrap hero-grid"><div><span class="eyebrow"><span class="dot"></span> 2026 국민의힘 진주시장 후보</span><h1>경제·재정·우주항공<br><span class="gradient-text">경험으로</span><br>진주 대전환.</h1><p class="lead">진주고·서울대·미주리대 경제학 박사, 기획재정부와 방위사업청에서 쌓은 재정·우주항공 경험을 바탕으로 진주의 미래 100년을 설계하겠다는 메시지를 전합니다.</p><div class="badges"><span class="badge">국민의힘 진주시장 후보 확정</span><span class="badge">전 기획재정부 사회예산국장</span><span class="badge">전 방위사업청 미래전력본부장</span></div><div class="hero-actions"><a class="btn btn-primary" href="#policy">6대 프로젝트 보기</a><a class="btn btn-secondary" href="#profile">약력·학력 보기</a></div></div><aside class="candidate-card"><div class="portrait"><img class="portrait-img" src="https://i.namu.wiki/i/hEY2P_OeOll1wYKXJvTcjrQbWAHveu9WkKi-Dn2XdqGez3geyFUs084RosFnASihoCk5nrapwI8acPrfjDmE3dNZtBXzIyEd_riT6UdL7Yz0V-6nddIakD3pQBu3EX70fIy4hp41TZDwV1I_EMgDEC5iVtb58-IfFN2QBZXZJOQ.webp" alt="한경호 후보 프로필 사진" referrerpolicy="no-referrer"><div class="portrait-gradient"></div></div><div class="card-caption"><strong>한경호</strong><span>국민의힘 · 2026 진주시장 후보</span></div><div class="fact-mini"><div><b>3조</b><span>진주 예산 시대 공약</span></div><div><b>100개</b><span>우주항공기업 유치</span></div><div><b>1만</b><span>일자리 창출 목표</span></div></div></aside></div></section>
-    <section class="section" id="policy" style="background:white"><div class="wrap"><div class="section-head"><div><div class="section-kicker">JINJU GREAT TRANSITION</div><h2>진주대전환<br>6대 프로젝트</h2></div><p class="section-desc">2026년 4월 13일 공개 보도된 ‘진주대전환 6대 프로젝트’를 기준으로 정리했습니다. 수치와 명칭은 후보 공약 발표 보도에 나온 내용만 사용했습니다.</p></div><div class="policy"><article class="policy-card"><span class="num">01</span><h3>대한민국 우주항공수도 진주</h3><p>우주항공산업진흥원·항공안전기술원 등 핵심 인프라 유치, 연 1,000억 원 투자, 우주항공기업 100개 유치 추진.</p></article><article class="policy-card"><span class="num">02</span><h3>진주 예산 3조 원 시대</h3><p>‘진주 미래비전 2040’ 수립, 국비 확보 확대, 지출 구조조정, 재정 건전화, 경제부시장제와 스마트 행정 도입.</p></article><article class="policy-card"><span class="num">03</span><h3>원도심 활성화</h3><p>경사도·층고 제한 등 규제 완화, 공공기관 우선 배치, 빈집 100채 활용 마을호텔, 전통시장 스마트 당일배송 추진.</p></article><article class="policy-card"><span class="num">04</span><h3>반값 생활정책</h3><p>출산·보육 지원 확대, 산후우울증 치료비 지원, 손주 돌봄수당 인상, 청년 주거·교통비 지원, 장애인 반값택시 확대.</p></article><article class="policy-card"><span class="num">05</span><h3>체류형 관광도시</h3><p>유등축제 개선, 야간관광 확대, 지역 예술인 창작 지원 등 머무는 관광도시 전략 추진.</p></article><article class="policy-card"><span class="num">06</span><h3>안전도시 조성</h3><p>AI 기반 지능형 CCTV 확대, 침수 대응 시설 확충, 24시간 달빛어린이병원 확충 등 시민 안심 생활망 강화.</p></article></div></div></section>
-    <section class="section" id="profile"><div class="wrap"><div class="section-head"><div><div class="section-kicker">PROFILE & EDUCATION</div><h2>확인된 약력과 학력</h2></div><p class="section-desc">경남신문·국제신문·프레시안 등 공개 보도에서 확인되는 내용만 반영했습니다.</p></div><div class="profile-grid"><article class="profile-box"><h3>학력</h3><div class="list"><div class="list-item"><div class="label">고등학교</div><div>진주고등학교 졸업</div></div><div class="list-item"><div class="label">대학교</div><div>서울대학교 경영학과 졸업</div></div><div class="list-item"><div class="label">박사</div><div>미국 미주리대학교 경제학 박사</div></div></div></article><article class="profile-box"><h3>주요 경력</h3><div class="list"><div class="list-item"><div class="label">공직 입문</div><div>1992년 행정고시 재경직 합격</div></div><div class="list-item"><div class="label">기획재정부</div><div>전 기획재정부 재정관리국장·사회예산국장</div></div><div class="list-item"><div class="label">방위사업청</div><div>전 방위사업청 미래전력본부장</div></div></div></article></div></div></section>
-    <section class="section" id="message" style="background:white"><div class="wrap"><div class="section-head"><div><div class="section-kicker">CAMPAIGN MESSAGE</div><h2>핵심 메시지</h2></div><p class="section-desc">출마 선언과 공약 발표 보도의 흐름을 선거 페이지용 문장으로 압축했습니다.</p></div><div class="quote-band"><b>“청년이 돌아오는, 다시 성장하는 진주.”</b><span>경제·예산 전문성과 우주항공 분야 경험을 앞세워 지역경제 회복과 미래산업 유치를 강조하는 메시지입니다.</span></div></div></section>
-    <section class="section" id="sources"><div class="wrap"><div class="section-head"><div><div class="section-kicker">SOURCE CHECK</div><h2>반영 기준</h2></div><p class="section-desc">선거 홍보물로 실제 사용하기 전에는 후보 캠프 공식자료와 선관위 기준으로 최종 검수해야 합니다.</p></div><div class="source-grid"><div class="source-card"><b>후보 확정</b><span>2026.04.21 국민의힘 경남도당 공관위 경선 결과 보도 기준</span></div><div class="source-card"><b>6대 프로젝트</b><span>2026.04.13 진주대전환 6대 프로젝트 발표 보도 기준</span></div><div class="source-card"><b>학력·경력</b><span>진주고·서울대 경영학과·미주리대 경제학 박사, 기재부·방사청 경력 보도 기준</span></div><div class="source-card"><b>검수 필요</b><span>정당 로고, 후보 사진 사용권, 선거사무소 연락처, 후원회 정보는 공식 확인 필요</span></div></div></div></section>
-    <section class="section" id="contact"><div class="wrap"><div class="cta-band"><div><h2>진주의 변화에 함께해 주세요.</h2><p>후원, 자원봉사, 문의, 공식 SNS 링크를 연결하는 최종 전환 영역입니다.</p></div><a class="btn cta-white" href="tel:000-0000-0000">문의하기</a></div></div></section>
-  </main><footer><div class="wrap footer-grid"><div>© 2026 Han Kyung-ho Campaign Landing Page Draft</div><div>파일명: jinju.html · 공개 보도 기반 초안</div></div></footer>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow"><span class="dot"></span> 2026 국민의힘 진주시장 후보</span>
+          <h1>경제·재정·우주항공<br><span class="gradient-text">경험으로</span><br>진주 대전환.</h1>
+          <p class="lead">진주고·서울대·미주리대 경제학 박사, 기획재정부와 방위사업청에서 쌓은 재정·우주항공 경험을 바탕으로 진주의 미래 100년을 준비합니다.</p>
+          <div class="badges"><span class="badge">국민의힘</span><span class="badge">전 기획재정부 사회예산국장</span><span class="badge">전 방위사업청 미래전력본부장</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#promise">6대 프로젝트 보기</a><button class="btn btn-kakao" onclick="shareKakao()" type="button">카카오톡 공유</button><a class="btn btn-secondary" href="#profile">후보 약력 보기</a></div>
+        </div>
+        <aside class="candidate-card">
+          <div class="portrait"><img class="portrait-img" src="./한경호.webp" alt="한경호 후보 프로필 사진"><div class="portrait-gradient"></div></div>
+          <div class="card-caption"><strong>한경호</strong><span>국민의힘 · 2026 진주시장 후보</span></div>
+          <div class="fact-mini"><div><b>1966</b><span>경남 함양 출생</span></div><div><b>36회</b><span>행정고시 재경직</span></div><div><b>박사</b><span>경제학 전공</span></div></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">WHY HAN KYUNG-HO</div><h2>진주가 필요한 것은<br>말이 아닌 실행력.</h2></div><p class="section-desc">행정 경험, 예산 설계, 산업 정책 이해를 한 화면에서 강하게 전달하는 후보 브랜딩 섹션입니다.</p></div>
+        <div class="quick-grid"><div class="quick-card"><b>경제</b><span>경영·경제학 기반의 정책 이해</span></div><div class="quick-card"><b>예산</b><span>기획재정부 재정 분야 경력</span></div><div class="quick-card"><b>산업</b><span>방위사업청 미래전력 분야 경력</span></div><div class="quick-card"><b>진주</b><span>진주고 출신 지역 인연</span></div></div>
+      </div>
+    </section>
+
+    <section class="section white" id="promise">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">JINJU GREAT TRANSITION</div><h2>진주대전환<br>6대 프로젝트</h2></div><p class="section-desc">공약명은 선거 페이지에서 바로 읽히도록 짧고 강하게 구성했습니다. 세부 수치와 문구는 공식 캠프 자료 기준으로 교체 가능합니다.</p></div>
+        <div class="promise-grid">
+          <article class="promise-card"><span class="num">01</span><h3>대한민국 우주항공수도 진주</h3><p>우주항공 핵심 인프라와 기업 유치, 미래산업 일자리 창출을 전면에 배치합니다.</p></article>
+          <article class="promise-card"><span class="num">02</span><h3>진주 예산 3조 원 시대</h3><p>국비 확보, 재정 건전화, 스마트 행정으로 도시 성장의 재원을 키우는 메시지입니다.</p></article>
+          <article class="promise-card"><span class="num">03</span><h3>원도심 활성화</h3><p>규제 개선, 공공기능 배치, 빈집 활용, 전통시장 혁신을 연결합니다.</p></article>
+          <article class="promise-card"><span class="num">04</span><h3>반값 생활정책</h3><p>출산·보육·청년·교통·장애인 이동권 등 생활비 부담 완화를 강조합니다.</p></article>
+          <article class="promise-card"><span class="num">05</span><h3>체류형 관광도시</h3><p>남강, 진주성, 유등축제, 야간관광을 묶어 머무는 관광도시로 확장합니다.</p></article>
+          <article class="promise-card"><span class="num">06</span><h3>시민 안심 안전도시</h3><p>AI CCTV, 침수 대응, 야간·휴일 의료 접근성 등 안전 체감도를 높입니다.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="profile">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">PROFILE & EDUCATION</div><h2>출생·학력<br>한눈에 보기</h2></div><p class="section-desc">사용자가 제공한 나무위키 캡처 이미지의 정보를 기반으로 정리했습니다. 실제 선거 홍보물 사용 전 공식 자료와 대조하세요.</p></div>
+        <div class="profile-grid">
+          <article class="profile-box"><h3>기본 정보</h3><div class="bio-list"><div class="bio-row"><div class="bio-label">출생</div><div><strong>1966년 5월 22일</strong><br>경상남도 함양군</div></div><div class="bio-row"><div class="bio-label">소속 정당</div><div><strong>국민의힘</strong></div></div><div class="bio-row"><div class="bio-label">후보</div><div><strong>2026년 국민의힘 진주시장 후보</strong></div></div></div></article>
+          <article class="profile-box"><h3>학력</h3><div class="bio-list"><div class="bio-row"><div class="bio-label">초·중·고</div><div>하나초등학교 졸업<br>경호중학교 졸업<br>진주고등학교 졸업</div></div><div class="bio-row"><div class="bio-label">대학교</div><div>서울대학교 경영대학 경영학 학사</div></div><div class="bio-row"><div class="bio-label">대학원</div><div>미주리대학교 대학원 경제학 박사과정 졸업</div></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="career">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">PUBLIC SERVICE RECORD</div><h2>재정·예산·미래전력<br>공직 경력</h2></div><p class="section-desc">경력은 연도순보다 페이지 전달력에 맞춰 최근 경력부터 정리했습니다.</p></div>
+        <div class="profile-box">
+          <div class="career">
+            <div class="career-item"><div class="career-date">1992</div><div class="career-text">행정고시 재경직 36회 합격</div></div>
+            <div class="career-item"><div class="career-date">2008.05</div><div class="career-text">지식경제부 지원총괄팀장</div></div>
+            <div class="career-item"><div class="career-date">2009.02</div><div class="career-text">기획재정부 양자관세협력과장</div></div>
+            <div class="career-item"><div class="career-date">2010.12</div><div class="career-text">기획재정부 국제경제과장</div></div>
+            <div class="career-item"><div class="career-date">2013.05</div><div class="career-text">기획재정부 재정제도과장</div></div>
+            <div class="career-item"><div class="career-date">2014.12</div><div class="career-text">기획재정부 기획재정총괄과장</div></div>
+            <div class="career-item"><div class="career-date">2017.02</div><div class="career-text">국회 기획재정위원회 파견국장</div></div>
+            <div class="career-item"><div class="career-date">2019.03</div><div class="career-text">기획재정부 재정성과심의관</div></div>
+            <div class="career-item"><div class="career-date">2021.03</div><div class="career-text">기획재정부 재정관리국장</div></div>
+            <div class="career-item"><div class="career-date">2022.01</div><div class="career-text">기획재정부 사회예산국장</div></div>
+            <div class="career-item"><div class="career-date">2022.09</div><div class="career-text">방위사업청 미래전력본부장</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="message">
+      <div class="wrap">
+        <div class="quote-band"><div><b>“진주는 더 크게 성장할 수 있습니다.”</b><span>예산을 아는 후보, 산업을 아는 후보, 중앙 행정을 경험한 후보라는 이미지를 중심으로 설계한 핵심 메시지입니다.</span></div><a class="btn btn-primary" href="#share">지인에게 공유하기</a></div>
+      </div>
+    </section>
+
+    <section class="section white" id="share">
+      <div class="wrap">
+        <div class="share-panel"><div><div class="section-kicker">SHARE</div><h2>카카오톡으로<br>페이지 보내기</h2><p>모바일에서는 공유창을 통해 카카오톡으로 보낼 수 있고, 카카오 JavaScript 키를 넣으면 카카오톡 직접 공유 버튼으로 작동합니다.</p></div><div class="share-buttons"><button class="btn btn-kakao" onclick="shareKakao()" type="button">카카오톡 공유</button><button class="btn btn-secondary" onclick="copyLink()" type="button">링크 복사</button></div></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="copy-toast" id="copyToast">링크가 복사됐습니다</div>
+  <footer><div class="wrap footer-grid"><div>© 2026 Han Kyung-ho Campaign Landing Page Draft</div><div>파일명: jinju.html · 이미지: ./한경호.webp</div></div></footer>
+
+  <script>
+    const KAKAO_JS_KEY = '';
+    const PAGE_TITLE = '한경호 | 2026 진주시장 후보';
+    const PAGE_DESC = '경제·재정·우주항공 경험으로 진주의 대전환을 준비합니다.';
+    const PAGE_URL = window.location.href.split('#')[0];
+    const IMAGE_URL = new URL('./한경호.webp', window.location.href).href;
+
+    function initKakao(){
+      try{
+        if(KAKAO_JS_KEY && window.Kakao && !Kakao.isInitialized()) Kakao.init(KAKAO_JS_KEY);
+      }catch(e){}
+    }
+
+    async function shareKakao(){
+      initKakao();
+      try{
+        if(KAKAO_JS_KEY && window.Kakao && Kakao.isInitialized() && Kakao.Share){
+          Kakao.Share.sendDefault({
+            objectType:'feed',
+            content:{title:PAGE_TITLE,description:PAGE_DESC,imageUrl:IMAGE_URL,link:{mobileWebUrl:PAGE_URL,webUrl:PAGE_URL}},
+            buttons:[{title:'페이지 보기',link:{mobileWebUrl:PAGE_URL,webUrl:PAGE_URL}}]
+          });
+          return;
+        }
+        if(navigator.share){
+          await navigator.share({title:PAGE_TITLE,text:PAGE_DESC,url:PAGE_URL});
+          return;
+        }
+        copyLink();
+      }catch(e){copyLink();}
+    }
+
+    async function copyLink(){
+      try{await navigator.clipboard.writeText(PAGE_URL);}catch(e){
+        const temp=document.createElement('input');temp.value=PAGE_URL;document.body.appendChild(temp);temp.select();document.execCommand('copy');temp.remove();
+      }
+      const toast=document.getElementById('copyToast');toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1800);
+    }
+  </script>
 </body>
 </html>
